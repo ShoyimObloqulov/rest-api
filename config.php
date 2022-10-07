@@ -1,8 +1,8 @@
 <?php
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $db = "resp-api";
+    $host = "HOSTNAME";
+    $user = "USER";
+    $pass = "DBPASSWORD";
+    $db = "DBNAME";
 
     $sql = mysqli_connect($host,$user,$pass,$db);
     function run($sql){
